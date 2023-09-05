@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sql-alchemy-example"
+version = "0.1.0"
+description = ""
+authors = ["Brady Lamson <blamson@msudenver.edu>"]
+readme = "README.md"
+packages = [{include = "sql_alchemy_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.3"
+flask-sqlalchemy = "^3.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
